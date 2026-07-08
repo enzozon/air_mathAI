@@ -204,8 +204,4 @@ Pillow · CustomTkinter · Matplotlib.
   retreine; desenhe símbolos grandes e bem separados.
 - **MediaPipe não instala:** use Python 3.10–3.12.
 
----
 
-## 📄 Licença
-
-Defina a licença do projeto conforme sua preferência (por exemplo, MIT).
