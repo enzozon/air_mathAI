@@ -1,0 +1,24 @@
+# Air Math AI - dependências
+# Python 3.10+ (recomendado 3.12)
+
+# Visão computacional e captura
+opencv-python>=4.9.0
+mediapipe>=0.10.9
+numpy>=1.26.0,<2.0.0
+Pillow>=10.0.0
+
+# Machine Learning (CNN)
+tensorflow>=2.15.0            # use tensorflow-macos + tensorflow-metal no Apple Silicon
+scikit-learn>=1.4.0
+
+# Matemática simbólica
+sympy>=1.12
+
+# Interface gráfica
+customtkinter>=5.2.0
+
+# Visualização de métricas de treinamento
+matplotlib>=3.8.0
+
+# Desenvolvimento / testes (opcional)
+pytest>=8.0.0

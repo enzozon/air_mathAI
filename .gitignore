@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
+
+# --- Ambientes virtuais ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Dados gerados em runtime ---
+data/dataset/*
+data/models/*
+data/captures/*
+data/logs/*
+!data/dataset/.gitkeep
+!data/models/.gitkeep
+!data/captures/.gitkeep
+!data/logs/.gitkeep
+
+# --- IDEs e editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- Testes e cobertura ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- Modelos e checkpoints ---
+*.keras
+*.h5
+*.pth
+*.onnx
